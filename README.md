@@ -4,8 +4,6 @@ Machine/deep learning technologies can perform predictive analyses with higher a
 
 ## Bidirectional convolutional LSTM 
 
-The data were obtained from Open data portal of the Madrid City Council (https://bit.ly/2TZzwEo) and the generated dataset using Arcpy library is available in the Zenodo repository (DOI:https://doi.org/10.5281/zenodo.6076631).
-
 Below is a brief description of each file included in this repository:
 
 - _AirMetDataGeneration.ipynb_  combines processed air quality and meteorological data in spatiotemporal dimensions.
@@ -15,7 +13,7 @@ Below is a brief description of each file included in this repository:
 - _GridSearchCV\_BlockingTimeSeriesSplit.ipynb_ refers to parameter optimisation of the proposed model performed by applying GridSearchCV with Blocking Time Series Split. 
 - _Comparing\_BiConvLSTM\_ConvLSTM\_LSTM.ipynb_ develops and tests the BiConvLSTM method, and compared it with ConvLSTM and LSTM. 
 
-## Attention Temporal Graph Convolutional Network
+## Attention Temporal Graph Convolutional Network (A3T-GCN)
 
 The purpose of each file included in this repository is briefly described below:
 
@@ -25,7 +23,8 @@ The purpose of each file included in this repository is briefly described below:
 - _distanceNodes.ipynb_ includes the procedure for calculating the distance between the air quality stations placed in the city of Madrid (24 stations).
 - _distanceNodes.txt_ includes the distance between the air quality stations placed in the city of Madrid (24 stations, 276 edges each edge is placed 2 times depending on the node order: origin, destination).
 
-The datasets can be found at the following link: https://doi.org/10.5281/zenodo.7308425.
+
+The data were obtained from Open data portal of the Madrid City Council (https://bit.ly/2TZzwEo) and the generated dataset using Arcpy library is available in the Zenodo repository (BiConvLSTM: https://doi.org/10.5281/zenodo.6076631; A3T-GCN: https://doi.org/10.5281/zenodo.7308425).
 
 
 
