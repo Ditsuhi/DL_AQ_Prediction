@@ -1,12 +1,12 @@
 # A set of deep learning algorithms for air quality prediction applications
 
-Machine/deep learning technologies can perform predictive analyses with higher accuracy. Two machine/deep learning algorithms are introduced here to predict air quality, including grid-based (Bidirectional Convolutional Long Short-Term Memory) and graph-based (Attention Temporal Graph Convolutional Network) algorithms. 
+Machine/deep learning technologies can perform predictive analyses with higher accuracy. Two machine/deep learning algorithms are introduced here to predict air quality, including grid-based (Bidirectional Convolutional Long Short-Term Memory (BiConvLSTM)) and graph-based (Attention Temporal Graph Convolutional Network (A3T-GCN)) algorithms. 
 
 The data were obtained from Open data portal of the Madrid City Council (https://bit.ly/2TZzwEo) and the generated dataset using Arcpy library is available in the Zenodo repository (BiConvLSTM: https://doi.org/10.5281/zenodo.6076631; A3T-GCN: https://doi.org/10.5281/zenodo.7308425).
 
 This project is licensed under the terms of the MIT license.
 
-## Bidirectional convolutional LSTM (BiConvLSTM)
+## BiConvLSTM
 
 Below is a brief description of each file included in this repository related to BiConvLSTM:
 
@@ -17,7 +17,7 @@ Below is a brief description of each file included in this repository related to
 - _GridSearchCV\_BlockingTimeSeriesSplit.ipynb_ refers to parameter optimisation of the proposed model performed by applying GridSearchCV with Blocking Time Series Split. 
 - _Comparing\_BiConvLSTM\_ConvLSTM\_LSTM.ipynb_ develops and tests the BiConvLSTM method, and compared it with ConvLSTM and LSTM. 
 
-## Attention Temporal Graph Convolutional Network (A3T-GCN)
+## A3T-GCN
 
 Below is a brief description of each file included in this repository related to A3T-GCN:
 
