@@ -26,6 +26,8 @@ Below is a brief description of each file included in this repository related to
 
 The data were obtained from Open data portal of the Madrid City Council (https://bit.ly/2TZzwEo) and the generated dataset using Arcpy library is available in the Zenodo repository (BiConvLSTM: https://doi.org/10.5281/zenodo.6076631; A3T-GCN: https://doi.org/10.5281/zenodo.7308425).
 
+This project is licensed under the terms of the MIT license.
+
 
 
 
