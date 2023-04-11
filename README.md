@@ -2,9 +2,9 @@
 
 Machine/deep learning technologies can perform predictive analyses with higher accuracy. Two machine/deep learning algorithms are introduced here to predict air quality, including grid-based (Bidirectional Convolutional Long Short-Term Memory) and graph-based (Attention Temporal Graph Convolutional Network) algorithms. 
 
-## Bidirectional convolutional LSTM 
+## Bidirectional convolutional LSTM (BiConvLSTM)
 
-Below is a brief description of each file included in this repository:
+Below is a brief description of each file included in this repository related to BiConvLSTM:
 
 - _AirMetDataGeneration.ipynb_  combines processed air quality and meteorological data in spatiotemporal dimensions.
 - _TrafficDataGeneration.ipynb_  combines processed traffic data in spatiotemporal dimensions.
@@ -15,7 +15,7 @@ Below is a brief description of each file included in this repository:
 
 ## Attention Temporal Graph Convolutional Network (A3T-GCN)
 
-The purpose of each file included in this repository is briefly described below:
+Below is a brief description of each file included in this repository related to A3T-GCN:
 
 - _A3T-GCN_TGCN_LSTM_GRU.ipynb_ includes steps for predicting nitrogen dioxide by implementing A3T-GCN and comparing it with the results from reference methods (TGCN, LSTM and GRU).
 - _Extract_Stations_Data_2019_2022.ipynb_ includes the procedure for extracting the data (raws/cells) referring only to the air quality monitoring stations' cells. 
