@@ -4,7 +4,7 @@ Machine/deep learning technologies can perform predictive analyses with higher a
 
 The data were obtained from Open data portal of the Madrid City Council (https://bit.ly/2TZzwEo) and the generated dataset using Arcpy library is available in the Zenodo repository (BiConvLSTM: https://doi.org/10.5281/zenodo.6076631; A3T-GCN: https://doi.org/10.5281/zenodo.7308425).
 
-This project is licensed under the terms of the Creative Commons Zero v1.0 Universal license.
+This project is licensed under the terms of the _Creative Commons Zero v1.0 Universal_ license.
 
 ## BiConvLSTM
 
